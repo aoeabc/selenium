@@ -1,7 +1,7 @@
 import requests
 import pymysql
 # 建立一个session连接
-
+# ceshi git
 def connectSql(sql='',user='root',password='root',host='localhost',port=3306,db='p2p'):
 
     with pymysql.connect(user=user,
